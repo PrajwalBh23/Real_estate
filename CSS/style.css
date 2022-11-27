@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*html{
+    scroll-behavior: smooth;   It's for click and get the block so give id 
+}*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav_list
+{
+    width: 76%;
+    display: flex;
+/* justify-content: center;   --> It is for horizontal center;*/
+    align-items: center;
+    font-size: 10px;
+}
+.nav_list li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav_list li{
+    list-style: none;   
+    padding: 26px 25px; 
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+.logo
+{
+    width: 20%;
+    justify-content: center;
+    padding-left: 25px;
+}
+.logo img{
+    border: 2px double teal;
+    border-radius: 45px;
+    width: 90px;
+}
+.right_nav
+{
+    width: 39%;
+    margin-top: 0px;
+    text-align: right;                       /* All elments is right shift*/
+    margin-right: 63px;
+    padding: -5px;
+}
+.sear input
+{
+    border: dotted rgb(66, 66, 238);
+}
+body{
+    background-color: rgb(240, 230, 230);
+}
+#search
+{
+    border-radius: 15px;
+    border: 2px dotted snow;
+    height: 30px;
+    width: 247px;
+    background-image: url('../Imges/Search2.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+.btn-sm{
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 1px;
+    border: 1px dotted teal;
+    margin-right: 1%;
+}
+.background
+{
+    background: rgba(0, 0,0 ,0.7) url('../Imges/SECTION-BACK.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    max-width: 50%;
+    margin: auto;
+}
+.firsthalf{
+    width: 80%;
+    height: 37%;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 150%;
+    display: block;
+    margin: auto;
+    height: 150%;
+    border: 2px solid #d46666;
+    border-radius: 50px;
+}
+.text-small{
+    font-size: 35px;
+    color:crimson;
+    margin: 5px 0px 10px 0px ;
+    
+}
+.text-big{
+    font-size: 18px;
+}
+.btn{
+    padding: 10px;
+    margin: 8px 2px;
+    border: 2px double teal;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.secright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1011px;
+    margin: auto;
+}
+.Paras{
+    padding: 0 30px;
+}
+.sectionSubTag
+{
+    font-family: Segoe UI;
+    font-size: 16px;
+}
+.Thumbil img{
+    width: 275px;
+    padding: -1px;
+    border: 3px solid rgb(233, 254, 254);
+    border-radius: 20px;
+}
+.secLeft{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1011px;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+.txt-contact{
+    width: 40%;
+    background-color: rgb(241, 240, 240);
+    height: 550px;
+    margin: 0.5px;
+    margin-right: 4%;
+    margin-left: 5px;
+}
+.text-center
+{
+    padding-left: 41%;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.form{
+   /* margin: auto; */
+    max-width: 60%;
+    margin-left: 50px;
+}
+.form input{
+    width: 130%;
+    border: 1px double black;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 5px 3px;
+    margin: 14px auto;
+}
+.text-area
+{
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 14px 0px;
+    width: 128%;
+}
+.allbutton{
+    color: black;
+    margin-left: -5px;
+}
+.btn-next{
+    border: 2px solid teal;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 5px 5px;
+}
+.text-Foot{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    height: 35px;
+}
+.Social-Media{
+    display: flex;
+    margin-top: 20px;
+}
+.Topic-name{
+    display: flex;
+    max-width: 49%;
+    flex-direction: column;
+}
+.Type{
+    width: 100%;
+}
+.Para-type{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+    color: rgb(49, 103, 202);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 4px;  /* Work same as underline-position*/
+    text-decoration-color: darkgreen;
+
+}
+.listed{
+list-style: none;   
+padding: 26px 25px; 
+font-size: 15px;
+font-family: Helvetica;
+text-align: center;
+}
+.listed a{
+    color:rgba(0, 0,0 ,0.7);
+    text-decoration: none;
+}
+.available{
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    color: darkorange;
+}
+.imga{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.right{
+    display: flex;
+}
+.available img{
+    justify-content: center;
+    padding: 1px;
+    margin-top: 20px;
+    margin-left: 42px;
+}
+.middle{
+    vertical-align: baseline;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 7px;
+}
