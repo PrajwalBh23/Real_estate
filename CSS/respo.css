@@ -57,6 +57,9 @@
     .txt-contact{
         width: 100%;
     }
+    .text-center{
+        margin-left: -5%;
+    }
     .form{
         max-width: 60%;
     }
@@ -64,7 +67,7 @@
         max-width: 130%;
     }
     .media{
-        max-width: 100%;
+        width: 100%;
         /*new one*/
         display: flex;
         align-items: center;
@@ -97,6 +100,10 @@
     }
     .text-Foot{
         height: 100%;
+    }
+    .Para2{
+        display: flex;
+        width: 100%;
     }
     /*.buttons{
         justify-content: center;
